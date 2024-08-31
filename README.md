@@ -85,15 +85,19 @@
 <h4>Test the API Endpoints:</h4>
 <ul>
   <li>Register: Send a POST request to /api/auth/register with the following JSON body:</li>
-  <li>POST /api/auth/register with { "username": "your_username" } in the body.</li>
+  <ul>
+    <li>POST /api/auth/register with { "username": "your_username" } in the body.</li>
+  </ul>  
   <img src="https://raw.githubusercontent.com/sivaramakrishna-27/RIMES_assignment/main/Task_img/task-02-01.png">
   <li>Login: Send a POST request to /api/auth/login with the following JSON body to receive access and refresh tokens:</li>
-  <li>POST /api/auth/login with { "username": "your_username" } in the body to receive access and refresh tokens.
-</li>
+  <ul>
+    <li>POST /api/auth/login with { "username": "your_username" } in the body to receive access and refresh tokens.</li>
+  </ul> 
   <img src="https://raw.githubusercontent.com/sivaramakrishna-27/RIMES_assignment/main/Task_img/task-02-02.png">
   <li>Refresh Token: Send a POST request to /api/auth/refresh-token with the following JSON body to obtain a new access token:</li>
-  <li>POST /api/auth/refresh-token with { "token": "your_refresh_token" } in the body to obtain a new access token.
-</li>
+  <ul>
+    <li>POST /api/auth/refresh-token with { "token": "your_refresh_token" } in the body to obtain a new access token.</li>
+  </ul>
   <img src="https://raw.githubusercontent.com/sivaramakrishna-27/RIMES_assignment/main/Task_img/task-02-03.png">
 </ul>
 <h4>Conclusion</h4>
